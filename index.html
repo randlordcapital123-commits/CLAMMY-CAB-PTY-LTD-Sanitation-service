@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0ea5e9">
+<title>CLAMMY CAB (PTY) LTD | Sanitation &amp; Transport | Soweto &amp; Gauteng to Tzaneen</title>
+<meta name="description" content="CLAMMY CAB (PTY) LTD — Professional sanitation &amp; cleaning services in Soweto, plus door-to-door transport between Gauteng and Tzaneen. Call or WhatsApp +27 73 978 2453.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ SVG ICON SPRITE ============ -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-wa" viewBox="0 0 24 24">
+    <path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.2.2 2 3.1 5 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.2-.2-.5-.3z"/>
+    <path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.3c1.4.8 3.1 1.3 4.8 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 15 3.6 13.5 3.6 12 3.6 7.4 7.4 3.6 12 3.6S20.4 7.4 20.4 12 16.6 20.2 12 20.2z"/>
+  </symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-droplet" viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></symbol>
+  <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20.59 13.41 13.42 20.58a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><circle cx="7" cy="7" r="1.6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4z"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5"/><path d="M12 3v12"/></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></symbol>
+  <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><path d="M3 21h18"/><path d="M6 21V8l6-4 6 4v13"/><path d="M10 21v-5h4v5"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></symbol>
+  <symbol id="i-road" viewBox="0 0 24 24"><path d="M4 22 8 2M20 22 16 2M12 4v3M12 11v3M12 18v3"/></symbol>
+</svg>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-logo-wrap">
+        <img id="navLogo" alt="CLAMMY CAB logo">
+        <span class="logo-fallback" id="logoFallback">C</span>
+      </span>
+      <span class="brand-text">
+        <strong id="navName">CLAMMY CAB</strong>
+        <small id="navSuffix">Sanitation &middot; Transport</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Sanitation</a>
+      <a href="#transport" class="nav-link nav-link-transport">Transport</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button class="nav-link nav-admin-link" id="adminLink" type="button">Admin</button>
+      <a href="#" class="btn btn-wa btn-sm nav-mobile-cta" id="navWaMobile" target="_blank" rel="noopener">
+        <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg> WhatsApp Us
+      </a>
+    </nav>
+
+    <div class="nav-right">
+      <a class="btn btn-grad btn-sm nav-call" id="navCall">
+        <svg class="ico" viewBox="0 0 24 24"><use href="#i-phone"/></svg> Call Now
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img id="heroImg" alt="CLAMMY CAB sanitation and transport services">
+  </div>
+  <div class="hero-shade"></div>
+
+  <div class="hero-bubbles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="hero-pill"><i class="dot"></i> Soweto &middot; Gauteng &middot; Tzaneen</span>
+      <h1>Clean Spaces.<br><span class="grad-text">Safe Journeys.</span></h1>
+      <p class="hero-sub">
+        CLAMMY CAB (PTY) LTD is your dual-service partner — professional
+        sanitation &amp; deep-cleaning solutions, plus reliable door-to-door
+        transport and capping between Gauteng and Tzaneen.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-wa btn-lg" id="heroWa" target="_blank" rel="noopener">
+          <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg> WhatsApp Us
+        </a>
+        <a class="btn btn-glass btn-lg" id="heroCall">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-phone"/></svg> Call Now
+        </a>
+      </div>
+
+      <ul class="hero-trust">
+        <li><b>24/7</b> Emergency Response</li>
+        <li><b>Gauteng &harr; Tzaneen</b> Door to Door</li>
+        <li><b>Affordable</b> Local Rates</li>
+      </ul>
+    </div>
+
+    <div class="hero-card">
+      <h3>Book a Service</h3>
+      <p>Sanitation or transport — we reply fast on WhatsApp.</p>
+      <div class="hero-card-list" id="heroQuickServices"></div>
+      <a class="btn btn-sun btn-block" id="heroCardWa" target="_blank" rel="noopener">
+        <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg> Request Quote
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+      <path d="M0,64 C240,120 480,0 720,32 C960,64 1200,120 1440,72 L1440,120 L0,120 Z"></path>
+    </svg>
+  </div>
+</section>
+
+<!-- ================= STRIP ================= -->
+<section class="strip">
+  <div class="container strip-inner">
+    <div class="strip-item">
+      <span class="strip-ico grad-blue"><svg class="ico" viewBox="0 0 24 24"><use href="#i-droplet"/></svg></span>
+      <div><b>Sanitation Experts</b><small>Certified &amp; equipped</small></div>
+    </div>
+    <div class="strip-item">
+      <span class="strip-ico grad-amber"><svg class="ico" viewBox="0 0 24 24"><use href="#i-truck"/></svg></span>
+      <div><b>Gauteng &harr; Tzaneen</b><small>Door-to-door transport</small></div>
+    </div>
+    <div class="strip-item">
+      <span class="strip-ico grad-teal"><svg class="ico" viewBox="0 0 24 24"><use href="#i-shield"/></svg></span>
+      <div><b>Safe &amp; Hygienic</b><small>Approved chemicals</small></div>
+    </div>
+    <div class="strip-item">
+      <span class="strip-ico grad-violet"><svg class="ico" viewBox="0 0 24 24"><use href="#i-tag"/></svg></span>
+      <div><b>Best Prices</b><small>Local rates</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container about-grid">
+    <div class="about-media">
+      <div class="about-img-wrap">
+        <img id="aboutImg" alt="About CLAMMY CAB">
+      </div>
+      <div class="about-badge">
+        <strong>100%</strong>
+        <span>Satisfaction<br>Guaranteed</span>
+      </div>
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+    </div>
+
+    <div class="about-copy">
+      <span class="eyebrow">About Us</span>
+      <h2 class="section-title">One Name. <span class="grad-text">Two Trusted Services.</span></h2>
+      <p id="aboutText">
+        CLAMMY CAB (PTY) LTD is a proudly South African company based in Soweto, 1039.
+        We operate two divisions — a professional sanitation &amp; cleaning service
+        (portable toilet hire, septic &amp; pit emptying, deep cleaning, high-pressure
+        washing) and a dedicated transport &amp; capping service running door-to-door
+        between Gauteng and Tzaneen, Limpopo.
+      </p>
+
+      <ul class="about-points">
+        <li><span class="tick"><svg class="ico" viewBox="0 0 24 24"><use href="#i-check"/></svg></span> Registered &amp; fully compliant (PTY) LTD</li>
+        <li><span class="tick"><svg class="ico" viewBox="0 0 24 24"><use href="#i-check"/></svg></span> Trained, uniformed &amp; friendly teams</li>
+        <li><span class="tick"><svg class="ico" viewBox="0 0 24 24"><use href="#i-check"/></svg></span> Professional equipment, vehicles &amp; tankers</li>
+        <li><span class="tick"><svg class="ico" viewBox="0 0 24 24"><use href="#i-check"/></svg></span> Reliable, on-time — every trip, every job</li>
+      </ul>
+
+      <div class="about-actions">
+        <a class="btn btn-grad" href="#services">
+          Sanitation Services <svg class="ico" viewBox="0 0 24 24"><use href="#i-arrow"/></svg>
+        </a>
+        <a class="btn btn-sun" href="#transport">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-truck"/></svg> Transport Services
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SANITATION SERVICES ================= -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Sanitation Division</span>
+      <h2 class="section-title">Professional <span class="grad-text">Sanitation Services</span></h2>
+      <p class="section-sub">Transparent pricing. Quality workmanship. Every service can be booked instantly on WhatsApp.</p>
+    </div>
+
+    <div class="services-grid" id="servicesGrid"></div>
+
+    <div class="services-note">
+      <p>Need something custom? We build packages for events, construction sites and body corporates.</p>
+      <a class="btn btn-wa" id="servicesWa" target="_blank" rel="noopener">
+        <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg> Ask for a Custom Quote
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRANSPORT ================= -->
+<section class="section section-transport" id="transport">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-transport">Transport Division</span>
+      <h2 class="section-title">Door-to-Door <span class="grad-text-transport">Gauteng &harr; Tzaneen</span></h2>
+      <p class="section-sub">Safe, reliable and affordable passenger, parcel and cargo transport between Gauteng and Tzaneen, Limpopo. We collect and deliver at your door.</p>
+    </div>
+
+    <!-- route banner -->
+    <div class="route-banner reveal">
+      <div class="route-point">
+        <span class="route-ico grad-blue"><svg class="ico" viewBox="0 0 24 24"><use href="#i-pin"/></svg></span>
+        <div>
+          <b>Gauteng</b>
+          <small>Johannesburg &middot; Soweto &middot; Pretoria</small>
+        </div>
+      </div>
+
+      <div class="route-line" aria-hidden="true">
+        <span class="route-truck"><svg class="ico" viewBox="0 0 24 24"><use href="#i-truck"/></svg></span>
+        <span class="route-dash"></span>
+      </div>
+
+      <div class="route-point route-point-right">
+        <span class="route-ico grad-amber"><svg class="ico" viewBox="0 0 24 24"><use href="#i-pin"/></svg></span>
+        <div>
+          <b>Tzaneen</b>
+          <small>Limpopo &middot; Door to Door</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="transport-grid" id="transportGrid"></div>
+
+    <div class="services-note transport-note">
+      <p>Need a custom route, bulk cargo, group booking or a return trip? We arrange it.</p>
+      <a class="btn btn-sun" id="transportWa" target="_blank" rel="noopener">
+        <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg> Book a Trip on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="section section-alt" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Work</span>
+      <h2 class="section-title">Recent <span class="grad-text">Projects &amp; Gallery</span></h2>
+      <p class="section-sub">Sanitation jobs, transport trips and the teams behind every delivery.</p>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Get In Touch</span>
+      <h2 class="section-title">Let's Get You <span class="grad-text">Sorted</span></h2>
+      <p class="section-sub">Call, WhatsApp or send us a message — we respond quickly.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-cards">
+        <a class="contact-card" id="contactCall">
+          <span class="cc-ico grad-blue"><svg class="ico" viewBox="0 0 24 24"><use href="#i-phone"/></svg></span>
+          <div><b>Call Us</b><span id="contactPhone">+27 73 978 2453</span></div>
+        </a>
+        <a class="contact-card" id="contactWa" target="_blank" rel="noopener">
+          <span class="cc-ico grad-green"><svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg></span>
+          <div><b>WhatsApp</b><span id="contactWhats">+27 73 978 2453</span></div>
+        </a>
+        <div class="contact-card">
+          <span class="cc-ico grad-amber"><svg class="ico" viewBox="0 0 24 24"><use href="#i-pin"/></svg></span>
+          <div><b>Location</b><span id="contactAddress">1039, Soweto, South Africa</span></div>
+        </div>
+        <div class="contact-card">
+          <span class="cc-ico grad-violet"><svg class="ico" viewBox="0 0 24 24"><use href="#i-clock"/></svg></span>
+          <div><b>Working Hours</b><span id="contactHours">Mon – Sat: 07:00 – 18:00</span></div>
+        </div>
+        <div class="contact-card">
+          <span class="cc-ico grad-pink"><svg class="ico" viewBox="0 0 24 24"><use href="#i-mail"/></svg></span>
+          <div><b>Email</b><span id="contactEmail">clammymaholobela@gmail.com</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <h3>Send a Quick Enquiry</h3>
+        <div class="field">
+          <label for="cfName">Your Name</label>
+          <input id="cfName" type="text" placeholder="e.g. Thabo Mokoena" required>
+        </div>
+        <div class="field">
+          <label for="cfService">What Do You Need?</label>
+          <select id="cfService"></select>
+        </div>
+        <div class="field">
+          <label for="cfMsg">Message</label>
+          <textarea id="cfMsg" rows="4" placeholder="Tell us about the job or trip, address, and preferred date..."></textarea>
+        </div>
+        <button class="btn btn-wa btn-block btn-lg" type="submit">
+          <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg> Send via WhatsApp
+        </button>
+        <p class="form-hint">Your message opens directly in WhatsApp — no waiting.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img id="footerLogo" alt="CLAMMY CAB logo">
+        <span id="footerName">CLAMMY CAB (PTY) LTD</span>
+      </div>
+      <p id="footerTag">Sanitation &amp; cleaning services in Soweto, plus door-to-door transport between Gauteng and Tzaneen.</p>
+      <div class="footer-social">
+        <a id="footerWa" target="_blank" rel="noopener" class="soc wa">
+          <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg> WhatsApp
+        </a>
+        <a id="footerCall" class="soc call">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-phone"/></svg> Call
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Sanitation</a>
+      <a href="#transport">Transport</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <div id="footerServices"></div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p id="footerPhone">+27 73 978 2453</p>
+      <p id="footerWhats">+27 73 978 2453</p>
+      <p id="footerAddress">1039, Soweto, South Africa</p>
+      <p id="footerEmail">clammymaholobela@gmail.com</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; <span id="year"></span> CLAMMY CAB (PTY) LTD. All rights reserved.</p>
+      <p class="made">Proudly serving Soweto, Gauteng &amp; Tzaneen, Limpopo</p>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" id="fabWa" target="_blank" rel="noopener" aria-label="WhatsApp us">
+  <svg class="ico-fill" viewBox="0 0 24 24"><use href="#i-wa"/></svg>
+</a>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose" aria-label="Close">
+    <svg class="ico" viewBox="0 0 24 24"><use href="#i-x"/></svg>
+  </button>
+  <img id="lbImg" alt="Gallery image">
+  <p id="lbCaption"></p>
+</div>
+
+<!-- ================= ADMIN PANEL ================= -->
+<div class="admin" id="admin">
+  <div class="admin-shell">
+    <div class="admin-head">
+      <div>
+        <span class="admin-badge">Admin Area</span>
+        <h2>Website Control Panel</h2>
+      </div>
+      <button class="admin-close" id="adminClose" aria-label="Close">
+        <svg class="ico" viewBox="0 0 24 24"><use href="#i-x"/></svg>
+      </button>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="admin-login" id="adminLogin">
+      <div class="lock"><svg class="ico" viewBox="0 0 24 24"><use href="#i-lock"/></svg></div>
+      <h3>Owner Login</h3>
+      <p>Enter your admin password to manage services, transport, images and business info.</p>
+      <input type="password" id="adminPass" placeholder="Enter password" autocomplete="current-password">
+      <button class="btn btn-grad btn-block" id="loginBtn">Unlock Dashboard</button>
+      <p class="hint">Default password: <b>admin123</b> — you can change it under “Business Info”.</p>
+      <p class="login-error" id="loginError"></p>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="admin-dash" id="adminDash" hidden>
+      <div class="admin-tabs">
+        <button class="tab active" data-tab="services" type="button">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-droplet"/></svg> Sanitation
+        </button>
+        <button class="tab" data-tab="transport" type="button">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-truck"/></svg> Transport
+        </button>
+        <button class="tab" data-tab="gallery" type="button">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-image"/></svg> Gallery
+        </button>
+        <button class="tab" data-tab="branding" type="button">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-sliders"/></svg> Logo &amp; Images
+        </button>
+        <button class="tab" data-tab="business" type="button">
+          <svg class="ico" viewBox="0 0 24 24"><use href="#i-building"/></svg> Business Info
+        </button>
+      </div>
+
+      <!-- SANITATION SERVICES PANEL -->
+      <div class="tab-panel active" data-panel="services">
+        <div class="panel-grid">
+          <div class="card">
+            <h3 id="serviceFormTitle">Add Sanitation Service</h3>
+            <input type="hidden" id="svcId">
+            <label for="svcTitle">Service Name</label>
+            <input id="svcTitle" type="text" placeholder="e.g. Portable Toilet Hire">
+            <label for="svcPrice">Price</label>
+            <input id="svcPrice" type="text" placeholder="e.g. From R450 / day">
+            <label for="svcDesc">Description</label>
+            <textarea id="svcDesc" rows="4" placeholder="Short description..."></textarea>
+
+            <label>Service Image</label>
+            <div class="dropzone" id="svcDrop">
+              <input type="file" accept="image/*" hidden>
+              <div class="dz-preview" id="svcPreview"></div>
+              <p class="dz-text">Drag &amp; drop an image here<br><b>or tap to upload</b></p>
+            </div>
+
+            <div class="row">
+              <button class="btn btn-grad" id="svcSave" type="button">Save Service</button>
+              <button class="btn btn-ghost" id="svcReset" type="button">Clear Form</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Existing Services <span class="count" id="svcCount">0</span></h3>
+            <div class="admin-list" id="adminServiceList"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRANSPORT PANEL -->
+      <div class="tab-panel" data-panel="transport">
+        <div class="panel-grid">
+          <div class="card">
+            <h3 id="tspFormTitle">Add Transport Service</h3>
+            <input type="hidden" id="tspId">
+            <label for="tspTitle">Service Name</label>
+            <input id="tspTitle" type="text" placeholder="e.g. Gauteng to Tzaneen — Door to Door">
+            <label for="tspPrice">Price</label>
+            <input id="tspPrice" type="text" placeholder="e.g. From R350 / passenger">
+            <label for="tspDesc">Description</label>
+            <textarea id="tspDesc" rows="4" placeholder="Short description..."></textarea>
+
+            <label>Service Image</label>
+            <div class="dropzone" id="tspDrop">
+              <input type="file" accept="image/*" hidden>
+              <div class="dz-preview" id="tspPreview"></div>
+              <p class="dz-text">Drag &amp; drop an image here<br><b>or tap to upload</b></p>
+            </div>
+
+            <div class="row">
+              <button class="btn btn-sun" id="tspSave" type="button">Save Transport Service</button>
+              <button class="btn btn-ghost" id="tspReset" type="button">Clear Form</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Existing Transport Services <span class="count count-amber" id="tspCount">0</span></h3>
+            <div class="admin-list" id="adminTransportList"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GALLERY PANEL -->
+      <div class="tab-panel" data-panel="gallery">
+        <div class="card">
+          <h3>Upload Gallery Images</h3>
+          <div class="dropzone dropzone-lg" id="galDrop">
+            <input type="file" accept="image/*" multiple hidden>
+            <div class="dz-icon"><svg class="ico" viewBox="0 0 24 24"><use href="#i-camera"/></svg></div>
+            <p class="dz-text">Drag &amp; drop photos here<br><b>or tap to choose multiple images</b></p>
+          </div>
+          <p class="hint">Images are automatically resized &amp; compressed so they fit in your browser's offline storage.</p>
+        </div>
+
+        <div class="card">
+          <h3>Gallery Images <span class="count" id="galCount">0</span></h3>
+          <div class="admin-gallery" id="adminGallery"></div>
+        </div>
+      </div>
+
+      <!-- BRANDING PANEL -->
+      <div class="tab-panel" data-panel="branding">
+        <div class="panel-grid panel-grid-3">
+          <div class="card">
+            <h3>Business Logo</h3>
+            <div class="dropzone" id="logoDrop">
+              <input type="file" accept="image/*" hidden>
+              <div class="dz-preview" id="logoPreview"></div>
+              <p class="dz-text">Drag &amp; drop your logo<br><b>or tap to upload</b></p>
+            </div>
+            <button class="btn btn-ghost btn-sm btn-block" data-reset="logo" type="button">Reset to Default</button>
+          </div>
+
+          <div class="card">
+            <h3>Hero Background</h3>
+            <div class="dropzone" id="heroDrop">
+              <input type="file" accept="image/*" hidden>
+              <div class="dz-preview" id="heroPreview"></div>
+              <p class="dz-text">Drag &amp; drop the main banner image<br><b>or tap to upload</b></p>
+            </div>
+            <button class="btn btn-ghost btn-sm btn-block" data-reset="hero" type="button">Reset to Default</button>
+          </div>
+
+          <div class="card">
+            <h3>About Section Image</h3>
+            <div class="dropzone" id="aboutDrop">
+              <input type="file" accept="image/*" hidden>
+              <div class="dz-preview" id="aboutPreview"></div>
+              <p class="dz-text">Drag &amp; drop the about image<br><b>or tap to upload</b></p>
+            </div>
+            <button class="btn btn-ghost btn-sm btn-block" data-reset="about" type="button">Reset to Default</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- BUSINESS PANEL -->
+      <div class="tab-panel" data-panel="business">
+        <div class="card">
+          <h3>Business Information</h3>
+          <div class="form-grid">
+            <div class="field"><label for="bizName">Business Name</label><input id="bizName" type="text"></div>
+            <div class="field"><label for="bizTagline">Tagline / Suffix</label><input id="bizTagline" type="text"></div>
+            <div class="field"><label for="bizPhone">Phone Number</label><input id="bizPhone" type="tel"></div>
+            <div class="field"><label for="bizWhats">WhatsApp Number</label><input id="bizWhats" type="tel"></div>
+            <div class="field"><label for="bizEmail">Email Address</label><input id="bizEmail" type="email"></div>
+            <div class="field"><label for="bizAddress">Address</label><input id="bizAddress" type="text"></div>
+            <div class="field field-full"><label for="bizHours">Working Hours</label><input id="bizHours" type="text"></div>
+            <div class="field field-full"><label for="bizAbout">About Text</label><textarea id="bizAbout" rows="5"></textarea></div>
+            <div class="field field-full"><label for="bizPass">Admin Password</label><input id="bizPass" type="text"></div>
+          </div>
+          <div class="row">
+            <button class="btn btn-grad" id="bizSave" type="button">Save Business Info</button>
+            <button class="btn btn-ghost" id="bizReset" type="button">Discard Changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="admin-foot">
+      <button class="btn btn-ghost btn-sm" id="logoutBtn" type="button" hidden>Log Out</button>
+      <button class="btn btn-ghost btn-sm" id="wipeBtn" type="button">Reset All Website Data</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
